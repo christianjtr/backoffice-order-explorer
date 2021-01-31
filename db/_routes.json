@@ -1,0 +1,6 @@
+{
+  "/api/order": "/orders/",
+  "/api/order/:id": "/orders/:id",
+  "/api/status": "/statuses/",
+  "/api/status/:id": "/statuses/:id"
+}

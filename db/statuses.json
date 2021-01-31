@@ -1,0 +1,34 @@
+{
+  "statuses": [
+    {
+      "id": 1,
+      "status": "PENDING_CONFIRMATION",
+      "description": "Pending confirmation"
+    },
+    {
+      "id": 2,
+      "status": "CONFIRMED",
+      "description": "Confirmed"
+    },
+    {
+      "id": 3,
+      "status": "SENT_TO_WAREHOUSE",
+      "description": "Sent to Warehouse"
+    },
+    {
+      "id": 4,
+      "status": "SHIPPED",
+      "description": "Shipped"
+    },
+    {
+      "id": 5,
+      "status": "IN_TRANSIT",
+      "description": "In Transit"
+    },
+    {
+      "id": 6,
+      "status": "DELIVERED",
+      "description": "Delivered"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "webapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "server": "json-server --watch db/_db.js --routes db/_routes.json",
+    "start": "concurrently \"npm run serve\" \"npm run server\""
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bulma": "^0.9.2",
+    "bulma-extensions": "^6.2.7",
+    "bulma-toast": "^2.2.0",
+    "eslint": "^7.19.0",
+    "json-server": "^0.16.3",
+    "sweet-modal-vue": "^2.0.0",
+    "vue": "^2.6.12",
+    "vue-awesome": "^4.1.0",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.0.19",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@vue/cli-plugin-babel": "^4.5.11",
+    "@vue/cli-plugin-eslint": "^4.5.11",
+    "@vue/cli-service": "^4.5.11",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-standard": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "concurrently": "^5.3.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.5.0",
+    "sass": "^1.32.5",
+    "sass-loader": "^10.1.1",
+    "style-resources-loader": "^1.4.1",
+    "vue-cli-plugin-style-resources-loader": "^0.1.4",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
