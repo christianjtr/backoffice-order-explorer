@@ -58,7 +58,7 @@ npm run lint
 
 - Front-end:
 
-  - Vue v2 + Vuex, Axios.
+  - Vue v2 + Vuex, Axios, Bulma.
 
 - Back-end:
   - json-server
