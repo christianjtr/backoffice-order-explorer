@@ -1,5 +1,7 @@
 # Backoffice order explorer
 
+> :warning: Missing `src` folder :( 
+
 It´s just another test...
 
 Backoffice order explorer test to manage deliveries (change status, check delivery details, look for some deliveries). VueJS v2, JSON Server.
